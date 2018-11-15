@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Examen_II_Parcial___POO
 {
-    public partial class Form1 : Form
+    public partial class frmEliminarCancion : Form
     {
-        public Form1()
+        public frmEliminarCancion()
         {
             InitializeComponent();
+        }
+
+        private void btnCancelarEliminarCancion_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
